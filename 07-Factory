@@ -1,4 +1,3 @@
-```js
 function Factory() {
   return (type) => {
     let employee;
@@ -42,4 +41,3 @@ function run() {
     employees[i].say();
   }
 }
-```
