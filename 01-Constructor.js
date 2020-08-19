@@ -1,4 +1,3 @@
-```js
 function Vehicle (model, year, miles) {
   this.model = model;
   this.year  = year;
@@ -28,4 +27,3 @@ function Vehicle ( model, year, miles ) {
 Vehicle.prototype.demo = function () {
   return `${this.model} has been drived ${this.miles} miles`
 };
-```
