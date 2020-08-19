@@ -1,6 +1,5 @@
-#### The Mediator pattern provides central authority over a group of objects by encapsulating how these objects interact. 
+// The Mediator pattern provides central authority over a group of objects by encapsulating how these objects interact. 
 
-```js
 const Participant = function(name) {
   this.name = name;
   this.chatroom = null;
@@ -78,4 +77,3 @@ function run() {
 
   Logger.show();
 }
-```
