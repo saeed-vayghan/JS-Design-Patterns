@@ -1,4 +1,3 @@
-```js
 const pubsub = {};
  
 (function(myObject) {
@@ -73,4 +72,3 @@ pubsub.publish('inbox/event', { sender: 'hello@home.com', body: 'Hey again!' });
 pubsub.unsubscribe(subscription);
  
 pubsub.publish( 'inbox/event', 'Hello again!');
-```
