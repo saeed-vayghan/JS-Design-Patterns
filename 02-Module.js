@@ -1,6 +1,5 @@
 
-### With object literals
-```js
+// With object literals
 const myModule = {
  
   property: 'value',
@@ -30,12 +29,10 @@ myModule.updateConfig({
   language: 'fa',
   caching: false
 });
-```
-<br>
 
 
-### Anonymous function
-```js
+
+// Anonymous function
 const basketModule = (function () {
  
   const basket = [];
@@ -76,12 +73,9 @@ const basketModule = (function () {
 
 basketModule.addItem({ item: 'bread', price: 0.5 }); 
 console.log( basketModule.getItemCount() );
-```
-<br>
 
 
-### Revealing Module Pattern 
-```js
+// Revealing Module Pattern 
 const revealingModule = (function () {
  
   const privateVar = 'First Last Namse';
@@ -108,5 +102,3 @@ const revealingModule = (function () {
 })();
 
 revealingModule.setName('My New Name');
-```
-
