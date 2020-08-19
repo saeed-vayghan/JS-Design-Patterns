@@ -1,6 +1,5 @@
-#### The Facade however just defines a simpler interface to a module or system but doesn't add any additional functionality.
+// The Facade however just defines a simpler interface to a module or system but doesn't add any additional functionality.
 
-```js
 const module = (function() {
   const _private = {
     i: 5,
@@ -36,4 +35,3 @@ const module = (function() {
  
  
 module.facade({ run: true, val: 10 });
-```
