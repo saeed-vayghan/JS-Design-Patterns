@@ -1,4 +1,3 @@
-```js
 function GeoCoder() {
   this.getLatLng = function(address) {
 
@@ -52,4 +51,3 @@ function run() {
   geo.getLatLng('London');
   geo.getLatLng('Amsterdam');
 }
-```
