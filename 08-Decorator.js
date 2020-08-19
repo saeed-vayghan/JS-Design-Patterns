@@ -1,5 +1,3 @@
-```js
-
 // The constructor to decorate
 function MacBook() {
   this.cost = () => {
@@ -49,4 +47,3 @@ console.log(mb.cost());
  
 // Outputs: 11.6
 console.log(mb.screenSize());
-```
