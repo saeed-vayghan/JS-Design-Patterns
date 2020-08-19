@@ -1,4 +1,3 @@
-```js
 // old interface
 function Shipping() {
   this.request = (zipStart, zipEnd, weight) => {
@@ -47,4 +46,3 @@ function run() {
   // new shipping object with adapted interface
   cost = adapter.request('78701', '10010', '2 lbs');
 }
-```
