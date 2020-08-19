@@ -1,4 +1,3 @@
-```js
 function Click(origin) {
   this.origin   = origin,
   this.handlers = [], // observers
@@ -56,4 +55,3 @@ function run() {
 
   logger.show();
 }
-```
