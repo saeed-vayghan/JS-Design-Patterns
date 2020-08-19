@@ -1,4 +1,3 @@
-```js
 const mySingleton = (function () {
  
   let instance;
@@ -44,4 +43,3 @@ const mySingleton = (function () {
 const singleA = mySingleton.getInstance();
 const singleB = mySingleton.getInstance();
 console.log( singleA.getRandomNumber() === singleB.getRandomNumber() ); // true
-```
