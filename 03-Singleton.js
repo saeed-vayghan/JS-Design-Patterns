@@ -22,7 +22,6 @@ const mySingleton = (function () {
         return privateRandom;
       }
     };
- 
   };
  
   return {
