@@ -24,4 +24,4 @@ In software engineering, a software design pattern is a general, reusable soluti
 <br><b>
 
 ### Advanced
-1- Circuit Breaker
+1. Circuit Breaker
