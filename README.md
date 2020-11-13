@@ -21,3 +21,7 @@ In software engineering, a software design pattern is a general, reusable soluti
 1. [12-Bridge](12-Bridge.js) Bridge
 1. [13-Memento](13-Memento.js) Memento
 
+<br><b>
+
+### Advanced
+1- Circuit Breaker
