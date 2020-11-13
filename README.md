@@ -24,4 +24,4 @@ In software engineering, a software design pattern is a general, reusable soluti
 
 ### Advanced
 1. [circuit-breaker.js](circuit-breaker.js) Circuit Breaker
-1. Microservice Bulkhead: Failures in any component should not propagate to other components.
+1. Microservice Bulkhead: Failure of any component should not propagate to other components.
